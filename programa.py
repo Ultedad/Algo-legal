@@ -26,10 +26,16 @@ def salvar_ppm_ascii(matriz, largura, altura, nome_arquivo):
             for valor in linha:
                 arquivo.write(f"{valor} ")
             arquivo.write("\n")
+
+
+def verificar():
+	print(1)
+
             
 def rodar_sem():
 	for i in range(5):
 	  print(i)
+
 
 # Obter o diretório atual do script
 diretorio_atual = os.path.dirname(os.path.abspath(__file__))
@@ -46,3 +52,4 @@ largura = 512
 altura = 512
 print(largura,altura)
 salvar_ppm_ascii(matriz_imagem, largura, altura, nome_arquivo1)
+
